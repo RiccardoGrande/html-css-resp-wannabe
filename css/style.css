@@ -130,9 +130,9 @@ img {
 
  @media screen and ( max-width: 767px) {
     
-    .site-header, .lessons{
+    body .steps .text-center{
 
-        max-width: 767px;
+        width: 767px;
         
         
 
