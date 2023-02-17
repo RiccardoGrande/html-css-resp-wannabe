@@ -130,11 +130,21 @@ img {
 
  @media screen and ( max-width: 767px) {
     
-    body .steps .text-center{
+    body, .container, .site-header, .steps, .row, .text-center{
 
         width: 767px;
         
         
+
+    }
+ }
+
+  @media screen and ( max-width: 479px) {
+    
+    body, .container, .site-header, .steps, .row, .text-center{
+
+        width: 479px;
+        flex-direction: column;
 
     }
  }
